@@ -1,2 +1,1 @@
-docker ps
-docker rename stoic_curie firstapi
+docker run --name firstapi -d -p 5000:5000 -e CURRENT_ENVIRONMENT=development fzejfiohzqu/flaskapi:latest
